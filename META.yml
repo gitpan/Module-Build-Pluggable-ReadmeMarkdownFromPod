@@ -20,13 +20,13 @@ no_index:
 provides:
   Module::Build::Pluggable::ReadmeMarkdownFromPod:
     file: lib/Module/Build/Pluggable/ReadmeMarkdownFromPod.pm
-    version: 0.02
+    version: 0.04
 requires:
   Class::Accessor::Lite: 0
-  Module::Build::Pluggable: 0.02
+  Module::Build::Pluggable: 0.09
   Pod::Markdown: 0
   parent: 0
   perl: 5.010001
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.04
